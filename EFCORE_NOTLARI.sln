@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson9", "Lesson9\Lesson9.csproj", "{E428906F-5411-4D0A-A013-DDDE46A422A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#9 - OnConfiguring - Table İsimlendirme", "#9 - OnConfiguring - Table İsimlendirme\#9 - OnConfiguring - Table İsimlendirme.csproj", "{CEF15135-22AD-4CBF-AA31-7B904D9AC458}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E428906F-5411-4D0A-A013-DDDE46A422A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E428906F-5411-4D0A-A013-DDDE46A422A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E428906F-5411-4D0A-A013-DDDE46A422A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E428906F-5411-4D0A-A013-DDDE46A422A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF15135-22AD-4CBF-AA31-7B904D9AC458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF15135-22AD-4CBF-AA31-7B904D9AC458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF15135-22AD-4CBF-AA31-7B904D9AC458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF15135-22AD-4CBF-AA31-7B904D9AC458}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
