@@ -27,7 +27,7 @@ namespace _14___ToListAsync__Where__OrderBy__ThenBy__OrderByDescending__ThenByDe
             //Olusturulan sorguya Where sartini eklememizi saglar.
             ///////////////////////////////////////////////
             ///Method Syntax
-            // var urunler = context.Urunler.Where(u => u.UrunID > 5).ToList();
+            //var urunler = context.Urunler.Where(u => u.UrunID > 5).ToList();
             ///////////////////////////////////////////////
             ///Query Syntax
             //var urunlerQuery = (from urun in context.Urunler
