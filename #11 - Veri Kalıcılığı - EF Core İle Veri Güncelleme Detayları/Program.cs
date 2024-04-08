@@ -1,4 +1,6 @@
-﻿namespace _11___Veri_Kalıcılığı___EF_Core_İle_Veri_Güncelleme_Detayları
+﻿using Microsoft.EntityFrameworkCore.Metadata.Conventions;
+
+namespace _11___Veri_Kalıcılığı___EF_Core_İle_Veri_Güncelleme_Detayları
 {
     internal class Program
     {
@@ -32,6 +34,31 @@
             //context.SaveChanges();
             #endregion
             #endregion
+
+            #region EntityState nedir?
+            //ETicaretContext context = new ETicaretContext();
+            //Urun urun = new();
+            //Console.WriteLine(context.Entry(urun).State); //Added
+            #endregion
+
+            #region Birden fazla veri güncellenirken nelere dikkat edilmelidir?
+            ETicaretContext context = new ETicaretContext();
+            var urunler = context.Urunler.ToList();
+            foreach (var urun in urunler)
+            {
+                urun.UrunAdi += "*";
+                context.SaveChanges();
+            }
+            //foreach ile "urunler" listesini dondugumuzde her seferinde SaveChanges metodu calisacagi icin her seferinde ayri bir transaction acilacaktir. Bu da maliyetin artmasi anlamina gelir. Bunun yerine tüm ürünler dönüldükten sonra SaveChanges, foreach dongusunun disina yazilmalidir. Yani;
+            foreach (var urun in urunler)
+            {
+                urun.UrunAdi += "*";
+            }
+            context.SaveChanges();
+
+
+            #endregion
+
 
         }
     }
