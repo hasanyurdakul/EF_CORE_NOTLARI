@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#9 - OnConfiguring - Table İsimlendirme", "#9 - OnConfiguring - Table İsimlendirme\#9 - OnConfiguring - Table İsimlendirme.csproj", "{CEF15135-22AD-4CBF-AA31-7B904D9AC458}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#10 - Veri Kalıcılığı - EF Core İle Veri Ekleme Detayları", "#10 - Veri Kalıcılığı - EF Core İle Veri Ekleme Detayları\#10 - Veri Kalıcılığı - EF Core İle Veri Ekleme Detayları.csproj", "{21C6BE52-2903-4C70-990B-B297F23FAC90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CEF15135-22AD-4CBF-AA31-7B904D9AC458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEF15135-22AD-4CBF-AA31-7B904D9AC458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEF15135-22AD-4CBF-AA31-7B904D9AC458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C6BE52-2903-4C70-990B-B297F23FAC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C6BE52-2903-4C70-990B-B297F23FAC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C6BE52-2903-4C70-990B-B297F23FAC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C6BE52-2903-4C70-990B-B297F23FAC90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
