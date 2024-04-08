@@ -40,10 +40,11 @@ namespace _10___Veri_Kalıcılığı___EF_Core_İle_Veri_Ekleme_Detayları
             #endregion
 
             #region Birden fazla veri eklerken nelere dikkat edilmelidir?
-            ETicaretContext context = new();
-            Urun urun1 = new Urun() { UrunAdi = "AA Urunu", Fiyat = 2000 };
-            Urun urun2 = new Urun() { UrunAdi = "BB Urunu", Fiyat = 2000 };
-            Urun urun3 = new Urun() { UrunAdi = "CC Urunu", Fiyat = 2000 };
+            #region SaveChanges'i verimli kullanalım.
+            //ETicaretContext context = new();
+            //Urun urun1 = new Urun() { UrunAdi = "AA Urunu", Fiyat = 2000 };
+            //Urun urun2 = new Urun() { UrunAdi = "BB Urunu", Fiyat = 2000 };
+            //Urun urun3 = new Urun() { UrunAdi = "CC Urunu", Fiyat = 2000 };
             //////////////////////////////////////////////////////////////////
             //await context.AddAsync(urun1);
             //await context.SaveChangesAsync();
@@ -51,15 +52,38 @@ namespace _10___Veri_Kalıcılığı___EF_Core_İle_Veri_Ekleme_Detayları
             //                                                                //çağırıldıgında ayrı bir Transaction işlemşi çalışacak 
             //await context.AddAsync(urun2);                                  //ve bu da bize maliyet olarak dönecektir. 
             //await context.SaveChangesAsync();                               //ve bu da bize maliyet olarak dönecektir.
-                                                                              //Bunun yerine tüm ekleme, silme vb. işlemlerin 
+            //Bunun yerine tüm ekleme, silme vb. işlemlerin 
             //await context.AddAsync(urun3);                                  //tanımlanmasından sonra SaveChanges metodu çağırılmalıdır.
             //await context.SaveChangesAsync();
             //////////////////////////////////////////////////////////////////
-            await context.AddAsync(urun1);  
-            await context.AddAsync(urun2);  
-            await context.AddAsync(urun3);
-            await context.SaveChangesAsync();
+            //await context.AddAsync(urun1);
+            //await context.AddAsync(urun2);
+            //await context.AddAsync(urun3);
+            //await context.SaveChangesAsync();
+
             #endregion
+            #region AddRange ile veri ekleme
+            //ETicaretContext context = new();
+            //Urun urun1 = new Urun() { UrunAdi = "AA Urunu", Fiyat = 2000 };
+            //Urun urun2 = new Urun() { UrunAdi = "BB Urunu", Fiyat = 2000 };
+            //Urun urun3 = new Urun() { UrunAdi = "CC Urunu", Fiyat = 2000 };
+
+            //await context.Urunler.AddRangeAsync(urun1, urun2, urun3);
+            //await context.SaveChangesAsync();
+            //AddRange içine ürünleri tek tek parametre seklınde gonderebıldıgımız gıbı, IEnumerable interface'i içeren bir liste vb. obje de gönderebiliriz.
+            #endregion
+            #endregion
+
+            #region Eklenen verinin generate edilen ID'sini elde etme.
+            //TSQL sorgusundaki @@IDENTITY komutunu olarak düşünebiliriz.
+            ETicaretContext context = new();
+            Urun urun1 = new Urun() { UrunAdi = "AA Urunu", Fiyat = 2000 };
+            await context.AddAsync(urun1);
+            await context.SaveChangesAsync();
+            Console.WriteLine(urun1.UrunID);
+            #endregion
+
+
 
 
 
