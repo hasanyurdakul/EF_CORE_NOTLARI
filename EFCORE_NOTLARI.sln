@@ -15,15 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#13 - Veri Sorgulama - Teme
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#14 - ToListAsync, Where, OrderBy, ThenBy, OrderByDescending, ThenByDescending", "#14 - ToListAsync, Where, OrderBy, ThenBy, OrderByDescending, ThenByDescending\#14 - ToListAsync, Where, OrderBy, ThenBy, OrderByDescending, ThenByDescending.csproj", "{C46919A5-6C2A-4F59-B0BA-6653B3006F24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#15 -Single, SingleOrDefault, First, FirstOrDefault, Last, LastOrDefault, Find", "#15 -Single, SingleOrDefault, First, FirstOrDefault, Last, LastOrDefault, Find\#15 -Single, SingleOrDefault, First, FirstOrDefault, Last, LastOrDefault, Find.csproj", "{12019561-EB74-4508-9AD5-471CEB842BF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#15 -Single, SingleOrDefault, First, FirstOrDefault, Last, LastOrDefault, Find", "#15 -Single, SingleOrDefault, First, FirstOrDefault, Last, LastOrDefault, Find\#15 -Single, SingleOrDefault, First, FirstOrDefault, Last, LastOrDefault, Find.csproj", "{12019561-EB74-4508-9AD5-471CEB842BF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#16 - Count, LongCount, Any, Max, Min, Distinct, All, Sum, Average, Like Query", "#16 - Count, LongCount, Any, Max, Min, Distinct, All, Sum, Average, Like Query\#16 - Count, LongCount, Any, Max, Min, Distinct, All, Sum, Average, Like Query.csproj", "{1C3719C2-27FA-466F-A170-7C30F470994D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#16 - Count, LongCount, Any, Max, Min, Distinct, All, Sum, Average, Like Query", "#16 - Count, LongCount, Any, Max, Min, Distinct, All, Sum, Average, Like Query\#16 - Count, LongCount, Any, Max, Min, Distinct, All, Sum, Average, Like Query.csproj", "{1C3719C2-27FA-466F-A170-7C30F470994D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#17 - ToDictionary, ToArray, Select, SelectMany", "#17 - ToDictionary, ToArray, Select, SelectMany\#17 - ToDictionary, ToArray, Select, SelectMany.csproj", "{0B9BD6D9-5159-443B-87A8-ED39C6B362CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#17 - ToDictionary, ToArray, Select, SelectMany", "#17 - ToDictionary, ToArray, Select, SelectMany\#17 - ToDictionary, ToArray, Select, SelectMany.csproj", "{0B9BD6D9-5159-443B-87A8-ED39C6B362CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#18 - GroupBy Fonksiyonu - Ekstradan Foreach Fonksiyonu İle Pratik İterasyon", "#18 - GroupBy Fonksiyonu - Ekstradan Foreach Fonksiyonu İle Pratik İterasyon\#18 - GroupBy Fonksiyonu - Ekstradan Foreach Fonksiyonu İle Pratik İterasyon.csproj", "{0E1F37BD-07DD-4452-997C-D8C841052FF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#18 - GroupBy Fonksiyonu - Ekstradan Foreach Fonksiyonu İle Pratik İterasyon", "#18 - GroupBy Fonksiyonu - Ekstradan Foreach Fonksiyonu İle Pratik İterasyon\#18 - GroupBy Fonksiyonu - Ekstradan Foreach Fonksiyonu İle Pratik İterasyon.csproj", "{0E1F37BD-07DD-4452-997C-D8C841052FF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#19 - Derinlemesine Change Tracker Mekanizmasını İnceleyelim", "#19 - Derinlemesine Change Tracker Mekanizmasını İnceleyelim\#19 - Derinlemesine Change Tracker Mekanizmasını İnceleyelim.csproj", "{108CF617-75E6-4296-B0B1-96CC48CD89FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#19 - Derinlemesine Change Tracker Mekanizmasını İnceleyelim", "#19 - Derinlemesine Change Tracker Mekanizmasını İnceleyelim\#19 - Derinlemesine Change Tracker Mekanizmasını İnceleyelim.csproj", "{108CF617-75E6-4296-B0B1-96CC48CD89FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#20 - AsNoTracking, AsNoTrackingWithIdentityResolution, UseQueryTrackingBehavior", "#20 - AsNoTracking, AsNoTrackingWithIdentityResolution, UseQueryTrackingBehavior\#20 - AsNoTracking, AsNoTrackingWithIdentityResolution, UseQueryTrackingBehavior.csproj", "{D793AA44-10DB-4547-80DD-274E281C427C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{108CF617-75E6-4296-B0B1-96CC48CD89FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108CF617-75E6-4296-B0B1-96CC48CD89FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108CF617-75E6-4296-B0B1-96CC48CD89FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D793AA44-10DB-4547-80DD-274E281C427C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D793AA44-10DB-4547-80DD-274E281C427C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D793AA44-10DB-4547-80DD-274E281C427C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D793AA44-10DB-4547-80DD-274E281C427C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
