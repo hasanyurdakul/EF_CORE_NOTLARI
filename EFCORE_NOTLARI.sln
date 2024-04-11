@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#21 - İlişkisel Yapılar 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması", "#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması\#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması.csproj", "{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması", "#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması\#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması.csproj", "{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
