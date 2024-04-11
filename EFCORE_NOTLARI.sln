@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#23 - One to Many Relations
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması", "#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması\#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması.csproj", "{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları", "#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları\#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları.csproj", "{35C32B23-FF85-4EBF-B972-784A41B50AB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C32B23-FF85-4EBF-B972-784A41B50AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C32B23-FF85-4EBF-B972-784A41B50AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C32B23-FF85-4EBF-B972-784A41B50AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C32B23-FF85-4EBF-B972-784A41B50AB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

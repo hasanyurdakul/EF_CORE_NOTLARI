@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Security.Cryptography;
 
 namespace _10___Veri_Kalıcılığı___EF_Core_İle_Veri_Ekleme_Detayları
 {
