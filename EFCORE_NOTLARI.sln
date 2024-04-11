@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#19 - Derinlemesine Change 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#20 - AsNoTracking, AsNoTrackingWithIdentityResolution, UseQueryTrackingBehavior", "#20 - AsNoTracking, AsNoTrackingWithIdentityResolution, UseQueryTrackingBehavior\#20 - AsNoTracking, AsNoTrackingWithIdentityResolution, UseQueryTrackingBehavior.csproj", "{D793AA44-10DB-4547-80DD-274E281C427C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#21 - İlişkisel Yapılar - Aşina Olunması Gereken Temel Kavramlar", "#21 - İlişkisel Yapılar - Aşina Olunması Gereken Temel Kavramlar\#21 - İlişkisel Yapılar - Aşina Olunması Gereken Temel Kavramlar.csproj", "{1C6A3938-F45F-46A2-84F9-98DB2A54B6B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#21 - İlişkisel Yapılar - Aşina Olunması Gereken Temel Kavramlar", "#21 - İlişkisel Yapılar - Aşina Olunması Gereken Temel Kavramlar\#21 - İlişkisel Yapılar - Aşina Olunması Gereken Temel Kavramlar.csproj", "{1C6A3938-F45F-46A2-84F9-98DB2A54B6B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması", "#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması\#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması.csproj", "{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{1C6A3938-F45F-46A2-84F9-98DB2A54B6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C6A3938-F45F-46A2-84F9-98DB2A54B6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C6A3938-F45F-46A2-84F9-98DB2A54B6B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
