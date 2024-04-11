@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#22 - One to One Relationsh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması", "#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması\#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması.csproj", "{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması", "#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması\#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması.csproj", "{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
