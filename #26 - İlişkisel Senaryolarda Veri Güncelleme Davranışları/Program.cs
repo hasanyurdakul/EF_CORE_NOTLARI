@@ -4,12 +4,12 @@ namespace _26___İlişkisel_Senaryolarda_Veri_Güncelleme_Davranışları
 {
     internal class Program
     {
+        private ApplicationDbContext context = new();
+
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
         }
-
-        private ApplicationDbContext context = new();
 
         #region One to One İlişkisel Senaryolarda Veri Güncelleme
 
@@ -174,20 +174,46 @@ namespace _26___İlişkisel_Senaryolarda_Veri_Güncelleme_Davranışları
 
         #endregion Many to Many İlişkisel Senaryolarda Veri Güncelleme
 
-        private class Person
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
-
-            public Address Address { get; set; }
-        }
-
         private class Address
         {
             public int Id { get; set; }
-            public string PersonAddress { get; set; }
-
             public Person Person { get; set; }
+            public string PersonAddress { get; set; }
+        }
+
+        private class ApplicationDbContext : DbContext
+        {
+            public DbSet<Address> Addresses { get; set; }
+            public DbSet<Author> Authors { get; set; }
+            public DbSet<Blog> Blogs { get; set; }
+            public DbSet<Book> Books { get; set; }
+            public DbSet<Person> Persons { get; set; }
+            public DbSet<Post> Posts { get; set; }
+
+            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+            {
+                optionsBuilder.UseSqlServer("Server=localhost, 1433;Database=ApplicationDb;User ID=SA;Password=1q2w3e4r+!");
+            }
+
+            protected override void OnModelCreating(ModelBuilder modelBuilder)
+            {
+                modelBuilder.Entity<Address>()
+                    .HasOne(a => a.Person)
+                    .WithOne(p => p.Address)
+                    .HasForeignKey<Address>(a => a.Id);
+            }
+        }
+
+        private class Author
+        {
+            public Author()
+            {
+                Books = new HashSet<Book>();
+            }
+
+            public string AuthorName { get; set; }
+            public ICollection<Book> Books { get; set; }
+            public int Id { get; set; }
         }
 
         private class Blog
@@ -203,15 +229,6 @@ namespace _26___İlişkisel_Senaryolarda_Veri_Güncelleme_Davranışları
             public ICollection<Post> Posts { get; set; }
         }
 
-        private class Post
-        {
-            public int Id { get; set; }
-            public int BlogId { get; set; }
-            public string Title { get; set; }
-
-            public Blog Blog { get; set; }
-        }
-
         private class Book
         {
             public Book()
@@ -219,46 +236,24 @@ namespace _26___İlişkisel_Senaryolarda_Veri_Güncelleme_Davranışları
                 Authors = new HashSet<Author>();
             }
 
-            public int Id { get; set; }
-            public string BookName { get; set; }
-
             public ICollection<Author> Authors { get; set; }
-        }
-
-        private class Author
-        {
-            public Author()
-            {
-                Books = new HashSet<Book>();
-            }
-
+            public string BookName { get; set; }
             public int Id { get; set; }
-            public string AuthorName { get; set; }
-
-            public ICollection<Book> Books { get; set; }
         }
 
-        private class ApplicationDbContext : DbContext
+        private class Person
         {
-            public DbSet<Person> Persons { get; set; }
-            public DbSet<Address> Addresses { get; set; }
-            public DbSet<Post> Posts { get; set; }
-            public DbSet<Blog> Blogs { get; set; }
-            public DbSet<Book> Books { get; set; }
-            public DbSet<Author> Authors { get; set; }
+            public Address Address { get; set; }
+            public int Id { get; set; }
+            public string Name { get; set; }
+        }
 
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            {
-                optionsBuilder.UseSqlServer("Server=localhost, 1433;Database=ApplicationDb;User ID=SA;Password=1q2w3e4r+!");
-            }
-
-            protected override void OnModelCreating(ModelBuilder modelBuilder)
-            {
-                modelBuilder.Entity<Address>()
-                    .HasOne(a => a.Person)
-                    .WithOne(p => p.Address)
-                    .HasForeignKey<Address>(a => a.Id);
-            }
+        private class Post
+        {
+            public Blog Blog { get; set; }
+            public int BlogId { get; set; }
+            public int Id { get; set; }
+            public string Title { get; set; }
         }
     }
 }

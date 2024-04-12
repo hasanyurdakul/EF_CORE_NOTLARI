@@ -2,27 +2,30 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
         }
 
-
         //ApplicationDbContext context = new();
 
         #region One to One İlişkisel Senaryolarda Veri Ekleme
+
         #region 1. Yöntem -> Principal Entity Üzerinden Dependent Entity Verisi Ekleme
+
         //Person person = new();
         //person.Name = "Hüseyin";
         //person.Address = new() { PersonAddress = "Etimesgut/ANKARA" };
 
         //await context.AddAsync(person);
         //await context.SaveChangesAsync();
-        #endregion
+
+        #endregion 1. Yöntem -> Principal Entity Üzerinden Dependent Entity Verisi Ekleme
 
         //Eğer ki principal entity üzerinden ekleme gerçekleştiriliyorsa dependent entity nesnesi verilmek zorunda değildir! Amma velakin, dependent entity üzerinden ekleme işlemi gerçekleştiriliyorsa eğer burada principal entitynin nesnesine ihtiyacımız zaruridir.
 
         #region 2. Yöntem -> Dependent Entity Üzerinden Principal Entity Verisi Ekleme
+
         //Address address = new()
         //{
         //    PersonAddress = "Papaz Deresi/Ankara",
@@ -31,7 +34,8 @@
 
         //await context.AddAsync(address);
         //await context.SaveChangesAsync();
-        #endregion
+
+        #endregion 2. Yöntem -> Dependent Entity Üzerinden Principal Entity Verisi Ekleme
 
         //class Person
         //{
@@ -64,11 +68,15 @@
         //            .HasForeignKey<Address>(a => a.Id);
         //    }
         //}
-        #endregion
+
+        #endregion One to One İlişkisel Senaryolarda Veri Ekleme
 
         #region One to Many İlişkisel Senaryolarda Veri Ekleme
+
         #region 1. Yöntem -> Principal Entity Üzerinden Dependent Entity Verisi Ekleme
+
         #region Nesne Referansı Üzerinden Ekleme
+
         //Blog blog = new() { Name = "Gencayyildiz.com Blog" };
         //blog.Posts.Add(new() { Title = "Post 1" });
         //blog.Posts.Add(new() { Title = "Post 2" });
@@ -76,8 +84,11 @@
 
         //await context.AddAsync(blog);
         //await context.SaveChangesAsync();
-        #endregion
+
+        #endregion Nesne Referansı Üzerinden Ekleme
+
         #region Object Initializer Üzerinden Ekleme
+
         //Blog blog2 = new()
         //{
         //    Name = "A Blog",
@@ -86,9 +97,13 @@
 
         //await context.AddAsync(blog2);
         //await context.SaveChangesAsync();
-        #endregion
-        #endregion
+
+        #endregion Object Initializer Üzerinden Ekleme
+
+        #endregion 1. Yöntem -> Principal Entity Üzerinden Dependent Entity Verisi Ekleme
+
         #region 2. Yöntem -> Dependent Entity Üzerinden Principal Entity Verisi Ekleme
+
         //Post post = new()
         //{
         //    Title = "Post 6",
@@ -97,7 +112,9 @@
 
         //await context.AddAsync(post);
         //await context.SaveChangesAsync();
-        #endregion
+
+        #endregion 2. Yöntem -> Dependent Entity Üzerinden Principal Entity Verisi Ekleme
+
         #region 3. Yöntem -> Foreign Key Kolonu Üzerinden Veri Ekleme
 
         //1. ve 2. yöntemler hiç olmayan verilerin ilişkisel olarak eklenmesini sağlarken, bu 3. yöntem önceden eklenmiş olan bir pricipal entity verisiyle yeni dependent entitylerin ilişkisel olarak eşleştirilmesini sağlamaktadır.
@@ -111,7 +128,8 @@
         //await context.AddAsync(post);
         //await context.SaveChangesAsync();
 
-        #endregion
+        #endregion 3. Yöntem -> Foreign Key Kolonu Üzerinden Veri Ekleme
+
         //class Blog
         //{
         //    public Blog()
@@ -140,10 +158,13 @@
         //        optionsBuilder.UseSqlServer("Server=localhost, 1433;Database=ApplicationDb;User ID=SA;Password=1q2w3e4r+!");
         //    }
         //}
-        #endregion
+
+        #endregion One to Many İlişkisel Senaryolarda Veri Ekleme
 
         #region Many to Many İlişkisel Senaryolarda Veri Ekleme
+
         #region 1. Yöntem
+
         //n t n ilişkisi eğer ki default convention üzerinden tasarlanmışsa kullanılan bir yöntemdir.
 
         //Book book = new()
@@ -159,8 +180,6 @@
 
         //await context.Books.AddAsync(book);
         //await context.SaveChangesAsync();
-
-
 
         //class Book
         //{
@@ -185,8 +204,11 @@
 
         //    public ICollection<Book> Books { get; set; }
         //}
-        #endregion
+
+        #endregion 1. Yöntem
+
         #region 2. Yöntem
+
         //n t n ilişkisi eğer ki fluent api ile tasarlanmışsa kullanılan bir yöntemdir.
 
         //Author author = new()
@@ -232,9 +254,8 @@
 
         //    public ICollection<AuthorBook> Books { get; set; }
         //}
-        #endregion
 
-
+        #endregion 2. Yöntem
 
         //class ApplicationDbContext : DbContext
         //{
@@ -260,6 +281,7 @@
         //            .HasForeignKey(ba => ba.AuthorId);
         //    }
         //}
-        #endregion
+
+        #endregion Many to Many İlişkisel Senaryolarda Veri Ekleme
     }
 }

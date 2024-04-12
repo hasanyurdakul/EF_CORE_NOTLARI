@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#24 - Many to Many Relation
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları", "#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları\#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları.csproj", "{35C32B23-FF85-4EBF-B972-784A41B50AB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları", "#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları\#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları.csproj", "{D2D9476D-905B-4806-8B8C-A7E314415705}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları", "#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları\#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları.csproj", "{D2D9476D-905B-4806-8B8C-A7E314415705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları", "#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları\#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları.csproj", "{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{D2D9476D-905B-4806-8B8C-A7E314415705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2D9476D-905B-4806-8B8C-A7E314415705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2D9476D-905B-4806-8B8C-A7E314415705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
