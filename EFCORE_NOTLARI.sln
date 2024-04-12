@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#25 - İlişkisel Senaryola
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları", "#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları\#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları.csproj", "{D2D9476D-905B-4806-8B8C-A7E314415705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları", "#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları\#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları.csproj", "{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları", "#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları\#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları.csproj", "{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#28 - Backing Fields Özelliği", "#28 - Backing Fields Özelliği\#28 - Backing Fields Özelliği.csproj", "{9A4A4E88-809D-4709-BE27-8CF7D9C66566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#28 - Backing Fields Özelliği", "#28 - Backing Fields Özelliği\#28 - Backing Fields Özelliği.csproj", "{9A4A4E88-809D-4709-BE27-8CF7D9C66566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#29 - Shadow Properties Özelliği", "#29 - Shadow Properties Özelliği\#29 - Shadow Properties Özelliği.csproj", "{E81A5193-B1D5-45CD-A35D-6CD0383DAB91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{9A4A4E88-809D-4709-BE27-8CF7D9C66566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A4A4E88-809D-4709-BE27-8CF7D9C66566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A4A4E88-809D-4709-BE27-8CF7D9C66566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E81A5193-B1D5-45CD-A35D-6CD0383DAB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81A5193-B1D5-45CD-A35D-6CD0383DAB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81A5193-B1D5-45CD-A35D-6CD0383DAB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81A5193-B1D5-45CD-A35D-6CD0383DAB91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
