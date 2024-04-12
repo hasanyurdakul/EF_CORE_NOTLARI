@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#28 - Backing Fields Özell
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#29 - Shadow Properties Özelliği", "#29 - Shadow Properties Özelliği\#29 - Shadow Properties Özelliği.csproj", "{E81A5193-B1D5-45CD-A35D-6CD0383DAB91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#30 - Özelleştirici Entity Konfigürasyonları - 1", "#30 - Özelleştirici Entity Konfigürasyonları - 1\#30 - Özelleştirici Entity Konfigürasyonları - 1.csproj", "{98E51753-E261-488D-BDCB-0095985A2FBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{E81A5193-B1D5-45CD-A35D-6CD0383DAB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E81A5193-B1D5-45CD-A35D-6CD0383DAB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E81A5193-B1D5-45CD-A35D-6CD0383DAB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E51753-E261-488D-BDCB-0095985A2FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E51753-E261-488D-BDCB-0095985A2FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E51753-E261-488D-BDCB-0095985A2FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E51753-E261-488D-BDCB-0095985A2FBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
