@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#9 - OnConfiguring - Table İsimlendirme", "#9 - OnConfiguring - Table İsimlendirme\#9 - OnConfiguring - Table İsimlendirme.csproj", "{CEF15135-22AD-4CBF-AA31-7B904D9AC458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#09 - OnConfiguring - Table İsimlendirme", "#9 - OnConfiguring - Table İsimlendirme\#09 - OnConfiguring - Table İsimlendirme.csproj", "{CEF15135-22AD-4CBF-AA31-7B904D9AC458}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#10 - Veri Kalıcılığı - EF Core İle Veri Ekleme Detayları", "#10 - Veri Kalıcılığı - EF Core İle Veri Ekleme Detayları\#10 - Veri Kalıcılığı - EF Core İle Veri Ekleme Detayları.csproj", "{21C6BE52-2903-4C70-990B-B297F23FAC90}"
 EndProject
@@ -40,6 +40,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları", "#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları\#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları.csproj", "{D2D9476D-905B-4806-8B8C-A7E314415705}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları", "#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları\#27 - İlişkisel Senaryolarda Veri Silme ve Cascade Delete Davranışları.csproj", "{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#28 - Backing Fields Özelliği", "#28 - Backing Fields Özelliği\#28 - Backing Fields Özelliği.csproj", "{9A4A4E88-809D-4709-BE27-8CF7D9C66566}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF74EDBE-740C-4ED4-A699-4E0FDB4EBAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4A4E88-809D-4709-BE27-8CF7D9C66566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4A4E88-809D-4709-BE27-8CF7D9C66566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4A4E88-809D-4709-BE27-8CF7D9C66566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4A4E88-809D-4709-BE27-8CF7D9C66566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
