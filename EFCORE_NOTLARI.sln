@@ -29,13 +29,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#20 - AsNoTracking, AsNoTra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#21 - İlişkisel Yapılar - Aşina Olunması Gereken Temel Kavramlar", "#21 - İlişkisel Yapılar - Aşina Olunması Gereken Temel Kavramlar\#21 - İlişkisel Yapılar - Aşina Olunması Gereken Temel Kavramlar.csproj", "{1C6A3938-F45F-46A2-84F9-98DB2A54B6B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması", "#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması\#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması.csproj", "{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması", "#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması\#22 - One to One Relationship - Tüm Detaylarıyla Birebir İlişki Yapılanması.csproj", "{98080F14-5C8B-4BFE-993A-7CE8CDDAE48B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması", "#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması\#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması.csproj", "{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması", "#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması\#23 - One to Many Relationship - Tüm Detaylarıyla Bire Çok İlişki Yapılanması.csproj", "{A51030AF-58E5-40B0-AFC3-6B6916F6FB92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması", "#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması\#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması.csproj", "{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması", "#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması\#24 - Many to Many Relationship - Tüm Detaylarıyla Çoka Çok İlişki Yapılanması.csproj", "{CF752B73-3E91-4ECF-BD65-F9A88260F5BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları", "#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları\#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları.csproj", "{35C32B23-FF85-4EBF-B972-784A41B50AB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları", "#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları\#25 - İlişkisel Senaryolarda Veri Ekleme Davranışları.csproj", "{35C32B23-FF85-4EBF-B972-784A41B50AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları", "#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları\#26 - İlişkisel Senaryolarda Veri Güncelleme Davranışları.csproj", "{D2D9476D-905B-4806-8B8C-A7E314415705}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{35C32B23-FF85-4EBF-B972-784A41B50AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35C32B23-FF85-4EBF-B972-784A41B50AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35C32B23-FF85-4EBF-B972-784A41B50AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D9476D-905B-4806-8B8C-A7E314415705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D9476D-905B-4806-8B8C-A7E314415705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D9476D-905B-4806-8B8C-A7E314415705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D9476D-905B-4806-8B8C-A7E314415705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
