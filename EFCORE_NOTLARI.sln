@@ -47,13 +47,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#29 - Shadow Properties Öz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#30 - Özelleştirici Entity Konfigürasyonları - 1", "#30 - Özelleştirici Entity Konfigürasyonları - 1\#30 - Özelleştirici Entity Konfigürasyonları - 1.csproj", "{98E51753-E261-488D-BDCB-0095985A2FBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#31 - Özelleştirici Entity Konfigürasyonları - 2", "#31 - Özelleştirici Entity Konfigürasyonları - 2\#31 - Özelleştirici Entity Konfigürasyonları - 2.csproj", "{42CC16AD-1F54-44A1-BB52-38E99979003D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#31 - Özelleştirici Entity Konfigürasyonları - 2", "#31 - Özelleştirici Entity Konfigürasyonları - 2\#31 - Özelleştirici Entity Konfigürasyonları - 2.csproj", "{42CC16AD-1F54-44A1-BB52-38E99979003D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#32 - Generated Values Yapılandırması - DatabaseGenerated", "#32 - Generated Values Yapılandırması - DatabaseGenerated\#32 - Generated Values Yapılandırması - DatabaseGenerated.csproj", "{93B8429A-C683-40D1-B791-0B824F453986}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#32 - Generated Values Yapılandırması - DatabaseGenerated", "#32 - Generated Values Yapılandırması - DatabaseGenerated\#32 - Generated Values Yapılandırması - DatabaseGenerated.csproj", "{93B8429A-C683-40D1-B791-0B824F453986}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak", "#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak\#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak.csproj", "{7E18B934-2952-4C8F-88E5-B80567E0EF9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak", "#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak\#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak.csproj", "{7E18B934-2952-4C8F-88E5-B80567E0EF9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi", "#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi\#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi.csproj", "{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi", "#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi\#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi.csproj", "{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#35 - Kalıtımsal Durumlarda EF Core Davranışları TPH - TPT - TPC (EF Core 7)", "#35 - Kalıtımsal Durumlarda EF Core Davranışları TPH - TPT - TPC (EF Core 7)\#35 - Kalıtımsal Durumlarda EF Core Davranışları TPH - TPT - TPC (EF Core 7).csproj", "{F1486168-1B30-46D2-871E-ACBEE3898BF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1486168-1B30-46D2-871E-ACBEE3898BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1486168-1B30-46D2-871E-ACBEE3898BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1486168-1B30-46D2-871E-ACBEE3898BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1486168-1B30-46D2-871E-ACBEE3898BF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
