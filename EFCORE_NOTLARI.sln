@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#39 - Constraints", "#39 - 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#40 - Indexes", "#40 - Indexes\#40 - Indexes.csproj", "{6B3F2B1B-1F45-419C-9F6F-0FFF8D21DF74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#41 - Sequences", "#41 - Sequences\#41 - Sequences.csproj", "{D65E65E8-F2F5-4E14-BCCD-4BB67BDB6E5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{6B3F2B1B-1F45-419C-9F6F-0FFF8D21DF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B3F2B1B-1F45-419C-9F6F-0FFF8D21DF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B3F2B1B-1F45-419C-9F6F-0FFF8D21DF74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65E65E8-F2F5-4E14-BCCD-4BB67BDB6E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65E65E8-F2F5-4E14-BCCD-4BB67BDB6E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65E65E8-F2F5-4E14-BCCD-4BB67BDB6E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65E65E8-F2F5-4E14-BCCD-4BB67BDB6E5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
