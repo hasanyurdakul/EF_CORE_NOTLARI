@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#31 - Özelleştirici Entit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#32 - Generated Values Yapılandırması - DatabaseGenerated", "#32 - Generated Values Yapılandırması - DatabaseGenerated\#32 - Generated Values Yapılandırması - DatabaseGenerated.csproj", "{93B8429A-C683-40D1-B791-0B824F453986}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak", "#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak\#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak.csproj", "{7E18B934-2952-4C8F-88E5-B80567E0EF9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{93B8429A-C683-40D1-B791-0B824F453986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93B8429A-C683-40D1-B791-0B824F453986}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93B8429A-C683-40D1-B791-0B824F453986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E18B934-2952-4C8F-88E5-B80567E0EF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E18B934-2952-4C8F-88E5-B80567E0EF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E18B934-2952-4C8F-88E5-B80567E0EF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E18B934-2952-4C8F-88E5-B80567E0EF9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
