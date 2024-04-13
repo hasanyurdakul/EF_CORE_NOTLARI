@@ -55,9 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#33 - IEntityTypeConfigurat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi", "#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi\#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi.csproj", "{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#35 - Kalıtımsal Durumlarda EF Core Davranışları TPH - TPT - TPC (EF Core 7)", "#35 - Kalıtımsal Durumlarda EF Core Davranışları TPH - TPT - TPC (EF Core 7)\#35 - Kalıtımsal Durumlarda EF Core Davranışları TPH - TPT - TPC (EF Core 7).csproj", "{F1486168-1B30-46D2-871E-ACBEE3898BF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#35 - Kalıtımsal Durumlarda EF Core Davranışları TPH - TPT - TPC (EF Core 7)", "#35 - Kalıtımsal Durumlarda EF Core Davranışları TPH - TPT - TPC (EF Core 7)\#35 - Kalıtımsal Durumlarda EF Core Davranışları TPH - TPT - TPC (EF Core 7).csproj", "{F1486168-1B30-46D2-871E-ACBEE3898BF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#36 - Table Per Hierarchy (TPH) Davranışı", "#36 - Table Per Hierarchy (TPH) Davranışı\#36 - Table Per Hierarchy (TPH) Davranışı.csproj", "{4D75A51D-19AB-46D9-8784-61073A6DBBBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#36 - Table Per Hierarchy (TPH) Davranışı", "#36 - Table Per Hierarchy (TPH) Davranışı\#36 - Table Per Hierarchy (TPH) Davranışı.csproj", "{4D75A51D-19AB-46D9-8784-61073A6DBBBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#37 - Table Per Type (TPT) Davranışı", "#37 - Table Per Type (TPT) Davranışı\#37 - Table Per Type (TPT) Davranışı.csproj", "{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{4D75A51D-19AB-46D9-8784-61073A6DBBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D75A51D-19AB-46D9-8784-61073A6DBBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D75A51D-19AB-46D9-8784-61073A6DBBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
