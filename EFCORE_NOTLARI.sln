@@ -61,6 +61,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#36 - Table Per Hierarchy (
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#37 - Table Per Type (TPT) Davranışı", "#37 - Table Per Type (TPT) Davranışı\#37 - Table Per Type (TPT) Davranışı.csproj", "{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#38 - Table Per Concrete Type (TPC) Davranışı", "#38 - Table Per Concrete Type (TPC) Davranışı\#38 - Table Per Concrete Type (TPC) Davranışı.csproj", "{B93367FC-55BA-4916-BD2E-0842AF1D309E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93367FC-55BA-4916-BD2E-0842AF1D309E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93367FC-55BA-4916-BD2E-0842AF1D309E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93367FC-55BA-4916-BD2E-0842AF1D309E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93367FC-55BA-4916-BD2E-0842AF1D309E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
