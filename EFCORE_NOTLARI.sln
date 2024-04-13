@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#32 - Generated Values Yap�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak", "#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak\#33 - IEntityTypeConfiguration İle Yapılandırmaları Harici Dosyalara Ayırmak.csproj", "{7E18B934-2952-4C8F-88E5-B80567E0EF9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi", "#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi\#34 - Seed Data Özelliği İle Hazır Verilerin Migrate Edilmesi.csproj", "{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{7E18B934-2952-4C8F-88E5-B80567E0EF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E18B934-2952-4C8F-88E5-B80567E0EF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E18B934-2952-4C8F-88E5-B80567E0EF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCFFCDD-66B1-4E9E-BBCC-BA8F19679CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
