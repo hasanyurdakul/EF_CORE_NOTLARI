@@ -59,21 +59,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#35 - Kalıtımsal Durumlar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#36 - Table Per Hierarchy (TPH) Davranışı", "#36 - Table Per Hierarchy (TPH) Davranışı\#36 - Table Per Hierarchy (TPH) Davranışı.csproj", "{4D75A51D-19AB-46D9-8784-61073A6DBBBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#37 - Table Per Type (TPT) Davranışı", "#37 - Table Per Type (TPT) Davranışı\#37 - Table Per Type (TPT) Davranışı.csproj", "{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#37 - Table Per Type (TPT) Davranışı", "#37 - Table Per Type (TPT) Davranışı\#37 - Table Per Type (TPT) Davranışı.csproj", "{9A5DDD45-5CD5-4FDE-B7D9-7E8BBBB80701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#38 - Table Per Concrete Type (TPC) Davranışı", "#38 - Table Per Concrete Type (TPC) Davranışı\#38 - Table Per Concrete Type (TPC) Davranışı.csproj", "{B93367FC-55BA-4916-BD2E-0842AF1D309E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#38 - Table Per Concrete Type (TPC) Davranışı", "#38 - Table Per Concrete Type (TPC) Davranışı\#38 - Table Per Concrete Type (TPC) Davranışı.csproj", "{B93367FC-55BA-4916-BD2E-0842AF1D309E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#39 - Constraints", "#39 - Constraints\#39 - Constraints.csproj", "{2E669B3C-550E-4C87-B57B-DA95A29FC66B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#39 - Constraints", "#39 - Constraints\#39 - Constraints.csproj", "{2E669B3C-550E-4C87-B57B-DA95A29FC66B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#40 - Indexes", "#40 - Indexes\#40 - Indexes.csproj", "{6B3F2B1B-1F45-419C-9F6F-0FFF8D21DF74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#40 - Indexes", "#40 - Indexes\#40 - Indexes.csproj", "{6B3F2B1B-1F45-419C-9F6F-0FFF8D21DF74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#41 - Sequences", "#41 - Sequences\#41 - Sequences.csproj", "{D65E65E8-F2F5-4E14-BCCD-4BB67BDB6E5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#41 - Sequences", "#41 - Sequences\#41 - Sequences.csproj", "{D65E65E8-F2F5-4E14-BCCD-4BB67BDB6E5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#42 - Loading Related Data - Eager loading", "#42 - Loading Related Data - Eager loading\#42 - Loading Related Data - Eager loading.csproj", "{471B61BF-0347-4305-B7B0-FB8784024941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#42 - Loading Related Data - Eager loading", "#42 - Loading Related Data - Eager loading\#42 - Loading Related Data - Eager loading.csproj", "{471B61BF-0347-4305-B7B0-FB8784024941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#43 - Loading Related Data - Explicit Loading", "#43 - Loading Related Data - Explicit Loading\#43 - Loading Related Data - Explicit Loading.csproj", "{B3688FDB-3E14-4374-B95B-EE32E516BFB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#43 - Loading Related Data - Explicit Loading", "#43 - Loading Related Data - Explicit Loading\#43 - Loading Related Data - Explicit Loading.csproj", "{B3688FDB-3E14-4374-B95B-EE32E516BFB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#44 - Loading Related Data - Lazy loading", "#44 - Loading Related Data - Lazy loading\#44 - Loading Related Data - Lazy loading.csproj", "{E1956A0B-58F7-4CB4-9B84-E055800AE2E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "#44 - Loading Related Data - Lazy loading", "#44 - Loading Related Data - Lazy loading\#44 - Loading Related Data - Lazy loading.csproj", "{E1956A0B-58F7-4CB4-9B84-E055800AE2E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#45 - Complex Query Operators - Inner, Left, Right, Full, Cross Joins", "#45 - Complex Query Operators - Inner, Left, Right, Full, Cross Joins\#45 - Complex Query Operators - Inner, Left, Right, Full, Cross Joins.csproj", "{B2BA02D0-4592-471F-B9B1-44DB808F31D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{E1956A0B-58F7-4CB4-9B84-E055800AE2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1956A0B-58F7-4CB4-9B84-E055800AE2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1956A0B-58F7-4CB4-9B84-E055800AE2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BA02D0-4592-471F-B9B1-44DB808F31D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BA02D0-4592-471F-B9B1-44DB808F31D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BA02D0-4592-471F-B9B1-44DB808F31D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BA02D0-4592-471F-B9B1-44DB808F31D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
